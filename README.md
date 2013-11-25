@@ -11,46 +11,61 @@ Get **unzip** and **image-magick** from your package manager
 
 ##Installation
 
-###1)
-Get the files
+###1) Get the files
+
+####First method : 
+
+Clone the Git ; you'll need obviously the package **git-core** installed to use **git**. 
 ```
 git clone https://github.com/Deevad/gnome-kra-ora-thumbnailer.git
 cd gnome-kra-ora-thumbnailer
 ```
-Or download it here :  [ gnome-kra-ora-thumbnailer master.zip on Github](https://github.com/Deevad/gnome-kra-ora-thumbnailer/archive/master.zip)
+
+####Second method :
+
+Download it here :  [ gnome-kra-ora-thumbnailer master.zip on Github](https://github.com/Deevad/gnome-kra-ora-thumbnailer/archive/master.zip)
 Then extract, and open a terminal in the folder. 
 
-Copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
+###2) Move the file to the right place
+
+You'll need to copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
 
 ```
 sudo cp kra.thumbnailer /usr/share/thumbnailers/kra.thumbnailer 
 sudo cp ora.thumbnailer /usr/share/thumbnailers/openraster.thumbnailer 
 ```
 
-3. Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
+and then Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
 
-
-4. Delete **~/.cache/thumbnails** folder 
-
-5. Quit all 'Files/Nautilus' : **nautilus -q**
-
-6. then restart 'File' via Activities.
-
-Done.
-
-##Terminal tips
-
-Copy file with permission :
 ```
-sudo cp source/path/to/your.file destination/path/to/your.file 
+sudo cp ora-thumbnailer /usr/bin/ora-thumbnailer
+sudo cp kra-thumbnailer /usr/bin/kra-thumbnailer
 ```
 
-Turning a file to execute mode :
+###3) Permissions
+
+Some of those text files are scripts, and need a permission to run. 
 ```
-sudo chmod +x /path/to/your.file
+sudo chmod +x /usr/bin/ora-thumbnailer
+sudo chmod +x /usr/bin/kra-thumbnailer
+
 ```
 
-Remove a folder :
+###4) Clean cache
+
+We need to delete previously made thumbnails; some files might have created a 'fail' thumbnail. Delete **~/.cache/thumbnails** folder 
+
 ```
 rm -R ~/.cache/thumbnails
 ```
+
+
+###5) Restart 'Files'
+
+Files ( aka Nautilus ) can be quited this way 
+```
+nautilus -q**
+```
+Then restart 'File' via Activities.
+
+Check your *.kra files , and your *.ora files, should be done.
