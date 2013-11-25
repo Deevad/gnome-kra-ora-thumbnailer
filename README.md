@@ -16,9 +16,11 @@ Get unzip and image-magick from your package manager
 
 3. Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
 
-4. Delete ~/.cache/thumbnails folder 
+4. Delete **~/.cache/thumbnails** folder 
 
-5. Quit all 'Files/Nautilus' : nautilus -q
+5. Quit all 'Files/Nautilus' : **nautilus -q**
 
-then restart 'File' via Activities. Done.
+6. then restart 'File' via Activities.
+
+Done.
 
