@@ -1,13 +1,13 @@
 gnome-kra-ora-thumbnailer
 =========================
 
-A noob-made thumbnailer ( app; 'File' aka Nautilus ) for KRA ( Krita native file ) and ORA ( open-raster ) for the Gnome desktop recent version ( &lt; 3.10 )   
+A **noob-made** thumbnailer ( app; 'File' aka Nautilus ) for KRA ( Krita native file ) and ORA ( open-raster ) for the Gnome desktop recent version ( &lt; 3.10 )   
 
 ___
 
 ##Dependencies
 
-Get unzip and image-magick from your package manager
+Get **unzip** and **image-magick** from your package manager
 
 ##Installation
 1. Get the 4 files
