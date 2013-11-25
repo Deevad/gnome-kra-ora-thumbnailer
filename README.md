@@ -24,3 +24,19 @@ Get **unzip** and **image-magick** from your package manager
 
 Done.
 
+##Terminal tips
+
+Copy file with permission :
+```
+sudo cp source/path/to/your.file destination/path/to/your.file 
+```
+
+Turning a file to execute mode :
+```
+sudo chmod +x /path/to/your.file
+```
+
+Remove a folder :
+```
+rm -R ~/.cache/thumbnails
+```
