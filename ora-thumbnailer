@@ -1,0 +1,14 @@
+#!/bin/bash
+# ora-thumbnailer, for Gnome 3.10 by Deevad , Nov-2013
+# dependencies : unzip and imagemagick
+# inspired by Ulhume ODF thumbnailer tutorial on Artisan Numerique
+
+
+# temp file for the stream
+gvfs-cat "$1" > /tmp/ora
+
+# unzip then remove alpha to avoid bad thumb
+unzip -p /tmp/ora Thumbnails/thumbnail.png | convert -alpha off - "$2"
+
+# cleaning
+rm -f /tmp/ora
