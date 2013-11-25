@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=kra-thumbnailer
+Exec=kra-thumbnailer %i %o %s
+MimeType=application/x-krita;
