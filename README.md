@@ -12,9 +12,9 @@ Get unzip and image-magick from your package manager
 ##Installation
 1. Get the 4 files
 
-2. Copy kra.thumbnailer and ora.thumbnailer to /usr/share/thumbnailers
+2. Copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
 
-3. Copy ora-thumbnailer and kra-thumbnailer to /usr/bin/ and give them permission to execute. 
+3. Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
 
 4. Delete ~/.cache/thumbnails folder 
 
