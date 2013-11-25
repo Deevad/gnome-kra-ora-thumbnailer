@@ -10,11 +10,25 @@ ___
 Get **unzip** and **image-magick** from your package manager
 
 ##Installation
-1. Get the 4 files
 
-2. Copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
+###1)
+Get the files
+```
+git clone https://github.com/Deevad/gnome-kra-ora-thumbnailer.git
+cd gnome-kra-ora-thumbnailer
+```
+Or download it here :  [ gnome-kra-ora-thumbnailer master.zip on Github](https://github.com/Deevad/gnome-kra-ora-thumbnailer/archive/master.zip)
+Then extract, and open a terminal in the folder. 
+
+Copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
+
+```
+sudo cp kra.thumbnailer /usr/share/thumbnailers/kra.thumbnailer 
+sudo cp ora.thumbnailer /usr/share/thumbnailers/openraster.thumbnailer 
+```
 
 3. Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
+
 
 4. Delete **~/.cache/thumbnails** folder 
 
