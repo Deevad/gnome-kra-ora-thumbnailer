@@ -31,7 +31,7 @@ Then extract, and open a terminal in the folder.
 
 ###2) Move the file to the right place
 
-You'll need to copy **kra.thumbnailer** and **ora.thumbnailer** to /usr/share/thumbnailers
+You'll need to copy **kra.thumbnailer** and **openraster.thumbnailer** to /usr/share/thumbnailers
 
 ```
 sudo cp kra.thumbnailer /usr/share/thumbnailers/kra.thumbnailer 
