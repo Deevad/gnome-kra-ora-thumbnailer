@@ -35,7 +35,7 @@ You'll need to copy **kra.thumbnailer** and **openraster.thumbnailer** to /usr/s
 
 ```
 sudo cp kra.thumbnailer /usr/share/thumbnailers/kra.thumbnailer 
-sudo cp ora.thumbnailer /usr/share/thumbnailers/openraster.thumbnailer 
+sudo cp openraster.thumbnailer /usr/share/thumbnailers/openraster.thumbnailer 
 ```
 
 and then Copy **ora-thumbnailer** and **kra-thumbnailer** to /usr/bin/ and give them permission to execute. 
