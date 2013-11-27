@@ -6,6 +6,10 @@ gnome-kra-ora-thumbnailer
 
 A **noob-made** thumbnailer ( app; 'File' aka Nautilus ) for KRA ( Krita native file ) and ORA ( open-raster ) for the Gnome desktop recent version ( &lt; 3.10 )   
 
+*Notes :*
+- Works also for Linux Mint 's Cinnamon Nemo file browser.
+- Don't forget in preferences to allow thumbnail preview for files larger than 100MB ; those layered files tend to be large. 
+
 ___
 
 ##Dependencies
