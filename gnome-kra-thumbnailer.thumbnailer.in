@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=@bindir@/gnome-kra-thumbnailer
+Exec=@bindir@/gnome-kra-thumbnailer -s %i %o
+MimeType=application/x-krita;

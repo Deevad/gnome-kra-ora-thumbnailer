@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=@bindir@/gnome-openraster-thumbnailer
+Exec=@bindir@/gnome-openraster-thumbnailer -s %i %o
+MimeType=image/openraster;
