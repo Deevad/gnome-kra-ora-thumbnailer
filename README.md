@@ -4,6 +4,8 @@ gnome-kra-ora-thumbnailer
 ![alt header](http://www.davidrevoy.com/data/images/blog/2013/11/kra-ora_thumbnailer_banner.jpg)
 
 
+[ TODAY UPDATE NOTE : I merged a contribution by Bastien Nocera <hadess@hadess.net> making the thumbnailer going to another code style, faster, more secure. Documentation bellow is obsolete for now. I'll update it later . I presume the new installation method is something like a classic .configure / make then make install ... TO TEST  ] 
+
 A **noob-made** thumbnailer ( app; 'File' aka Nautilus ) for KRA ( Krita native file ) and ORA ( open-raster ) for the Gnome desktop recent version ( &lt; 3.10 )   
 
 *Notes :*
