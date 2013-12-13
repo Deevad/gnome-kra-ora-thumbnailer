@@ -1,0 +1,13 @@
+Gnome-kra-ora-thumbnailer changelog
+
+Version 2.0, Dec 13, 2013
+-------------------------
+- Rewritten in C, for performance and security
+- Now easier to pack for distributions
+
+Version 1.0, Nov 25, 2013
+-------------------------
+- Based on bash script
+- Extracting with Unzip the thumbnail
+- Converting the thumbnail with imagemagick
+- Using /temp/ as a work folder
