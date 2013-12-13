@@ -12,19 +12,29 @@ ___
 
 Get the "build essential" from your package manager, autogen, cmake, git ...etc...
 
+Get the sources :
+
 ```
 git clone https://github.com/Deevad/gnome-kra-ora-thumbnailer.git
 cd gnome-kra-ora-thumbnailer
+```
+Note : You can also download the source as a zip here : [ gnome-kra-ora-thumbnailer master.zip on Github](https://github.com/Deevad/gnome-kra-ora-thumbnailer/archive/master.zip)
+
+
+Configure, build and install :
+```
 ./autogen.sh
 make
 sudo make install
 ```
-You can also download the source as a zip here : [ gnome-kra-ora-thumbnailer master.zip on Github](https://github.com/Deevad/gnome-kra-ora-thumbnailer/archive/master.zip)
+
 
 
 ##Post-install
 
-Close all Nemo/Files/Nautilus running then clean your old thumbnail cache, 
+Close all Nemo/Files/Nautilus. 
+
+Clean your old thumbnail cache : 
 
 ```
 rm -R ~/.cache/thumbnails
