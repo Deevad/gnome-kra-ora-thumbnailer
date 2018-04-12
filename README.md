@@ -1,3 +1,8 @@
+**/!\ 2018-04: Repository archived: the project moved to GNOME**  
+**https://git.gnome.org/browse/gnome-kra-ora-thumbnailer/**
+
+---
+
 gnome-kra-ora-thumbnailer
 =========================
 
@@ -8,7 +13,7 @@ A thumbnailer for Gnome 'File' (aka Nautilus) and Cinnamon 'Nemo' for KRA ( Krit
 
 ___
 
-##Installation
+## Installation
 
 Get the "build essential" from your package manager, autogen, cmake, git ...etc...
 
@@ -30,7 +35,7 @@ sudo make install
 
 
 
-##Post-install
+## Post-install
 
 Close all Nemo/Files/Nautilus. 
 
